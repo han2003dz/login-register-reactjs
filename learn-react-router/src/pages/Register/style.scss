@@ -1,0 +1,34 @@
+.register {
+  max-width: 300px; /* Đặt chiều rộng tối đa cho phần đăng nhập */
+  margin: auto; /* Căn giữa */
+}
+
+.register form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register label {
+  margin-bottom: 8px;
+}
+
+.register input {
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.register button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.register button:hover {
+  background-color: #45a049;
+}
+.register div {
+  display: flex;
+  flex-direction: column;
+}

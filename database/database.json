@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "username": "han nguyen",
+      "email": "han2003abc@gmail.com",
+      "password": "123456",
+      "token": "k7CeSxY8KjWR1mNWmhpx",
+      "id": 1
+    },
+    {
+      "username": "Luong2003",
+      "email": "luong2003abc@gmail.com",
+      "password": "123456",
+      "token": "XDDlKgLLOnZNb50w6mRz",
+      "id": 2
+    }
+  ]
+}

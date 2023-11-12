@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.layout__default {
+  flex: 1; /* Cho phép layout mở rộng để lấp đầy container */
+  display: flex;
+  flex-direction: column;
+  &--header {
+    background: rgb(0, 195, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  &--menu,
+  &--account {
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      li {
+        text-decoration: none;
+        padding: 0 10px;
+        a {
+          color: #000;
+          text-decoration: none;
+          font-weight: 600;
+        }
+        .active {
+          color: #fff;
+        }
+
+        .login,
+        .username {
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+  &--menu {
+    margin-left: 0;
+  }
+  &--account ul {
+    margin-right: 0;
+  }
+  &--main {
+    padding: 20px;
+    flex: 1;
+  }
+
+  &--footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 17px 0;
+    margin-top: auto;
+  }
+}

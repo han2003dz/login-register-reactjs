@@ -1,0 +1,34 @@
+.login {
+  max-width: 300px; /* Đặt chiều rộng tối đa cho phần đăng nhập */
+  margin: auto; /* Căn giữa */
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login label {
+  margin-bottom: 8px;
+}
+
+.login input {
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.login button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.login button:hover {
+  background-color: #45a049;
+}
+.login div {
+  display: flex;
+  flex-direction: column;
+}
